@@ -1,0 +1,31 @@
+enp0s7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.250  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fd91:75d6:b66e:0:8823:a280:e27c:c5bc  prefixlen 64  scopeid 0x0<global>
+        inet6 fd91:75d6:b66e::def  prefixlen 128  scopeid 0x0<global>
+        inet6 fd91:75d6:b66e:0:730f:2075:7f38:81aa  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::94d2:c0ba:336e:c3ab  prefixlen 64  scopeid 0x20<link>
+        inet6 fd91:75d6:b66e:0:b0c2:b5d4:d6d8:1351  prefixlen 64  scopeid 0x0<global>
+        inet6 fd91:75d6:b66e:0:8015:8ae2:9bc0:f90e  prefixlen 64  scopeid 0x0<global>
+        ether 00:24:8c:22:60:3f  txqueuelen 1000  (以太网)
+        RX packets 981397  bytes 319612874 (319.6 MB)
+        RX errors 0  dropped 1  overruns 0  frame 0
+        TX packets 3753351  bytes 5323749136 (5.3 GB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (本地环回)
+        RX packets 17266  bytes 2705914 (2.7 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 17266  bytes 2705914 (2.7 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+outline-tun0: flags=4241<UP,POINTOPOINT,NOARP,MULTICAST>  mtu 1500
+        inet 10.0.85.1  netmask 255.255.255.0  destination 10.0.85.1
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 500  (未指定)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
