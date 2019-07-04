@@ -1,10 +1,1 @@
-          inet addr:192.168.1.1  Bcast:192.168.1.255  Mask:255.255.255.0
-          inet6 addr: fd91:75d6:b66e::1/60 Scope:Global
-          inet6 addr: fe80::6409:80ff:fe06:c477/64 Scope:Link
-          inet6 addr: fe80::6609:80ff:fe06:c477/64 Scope:Link
-          inet6 addr: fe80::6609:80ff:fe06:c477/64 Scope:Link
-          inet addr:127.0.0.1  Mask:255.0.0.0
-          inet6 addr: ::1/128 Scope:Host
           inet addr:172.17.12.243  P-t-P:172.17.63.254  Mask:255.255.255.255
-          inet6 addr: fe80::6609:80ff:fe06:c479/64 Scope:Link
-          inet6 addr: fe80::6609:80ff:fe06:c478/64 Scope:Link
