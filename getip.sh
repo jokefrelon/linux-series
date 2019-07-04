@@ -1,15 +1,15 @@
 #!/bin/sh
 a=10
 b=10
-if[a==b]
+if [$a==$b]
 	then
-		ip a > ipadder.txt
+		ifconfig >/mnt/github/shell/ipadder.txt
 		cat ipadder.txt
 	else
-		sleep 3600
+		echo "Please checkout the shell"
 	fi
 cd /mnt/github/shell/
-git add ipadder.txt
+git add ipadder.txt 
 git commit -m "Robot auto update"
 git push getip master
 sleep 3600
