@@ -11,7 +11,7 @@
 while  true
 do
     cd /mnt/github/shell/
-    ifconfig  > ipadder.txt
+    ifconfig | grep inet  > ipadder.txt
     cat ipadder.txt
     git add ipadder.txt 
     git commit -m "Robot auto update"
