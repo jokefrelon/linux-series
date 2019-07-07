@@ -17,6 +17,7 @@ do
     git add ipadder.txt getip.sh 
     git commit -m "Robot auto update"
     git push getip master
+    echo "This program will sleep six minutes"
     sleep 6m
     cd /mnt/github/shell/
     ./getip.sh
