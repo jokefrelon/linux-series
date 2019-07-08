@@ -1,2 +1,2 @@
-# getip
-get my linux ip
+
+A little program that can get my linux ip
