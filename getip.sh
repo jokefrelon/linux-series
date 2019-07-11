@@ -1,9 +1,8 @@
 #!/bin/sh
-ab=10
-bc=10
-if [$ab==$bc]
+num_x=1
+num_y=1
+if [ $num_x == $num_y ]
 then
-	echo " hello "
 	cd /mnt/github/shell/
     	ifconfig | grep 172.17  > ipadder.txt
     	git add ipadder.txt getip.sh README.md
