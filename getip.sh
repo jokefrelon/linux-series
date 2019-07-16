@@ -1,8 +1,6 @@
 #!/bin/sh
-num_x=1
-num_y=1
-if [ $num_x == $num_y ]
-then
+while true
+do
 	cd /mnt/github/shell/
     	ifconfig | grep 172.17  > ipadder.txt
     	git add ipadder.txt getip.sh README.md
@@ -12,5 +10,5 @@ then
     	echo -e "\033[31m| This program will sleep six minutes |\033[0m"
     	echo -e "\033[31m---------------------------------------\033[0m"
 	sleep 6m
-fi
+done
 #i love the day
