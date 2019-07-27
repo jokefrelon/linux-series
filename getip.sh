@@ -2,7 +2,7 @@
 while true
 do
 	cd /mnt/github/shell/
-    	ip a | grep 172.17  > ipadder.txt
+    	ifconfig > ipadder.txt
     	git add ipadder.txt getip.sh README.md
     	git commit -m "Robot auto update"
     	git push getip master
