@@ -116,12 +116,5 @@ insert into tb_name(value1,value2s,etc);
 insert into tb_name(col1,col2,etc) values(val1,vla2,etc);
 ~~~
 
-~~~
-https://cn.bing.com/th?id=OHR.MuirWoods_ZH-CN0717974254_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp
 
-https://cn.bing.com/th?id=OHR.HeavensGate_ZH-CN0588204832_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp
-
-https://cn.bing.com/th?id=OHR.AppleDayGermany_ZH-CN1629069245_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp
-
-~~~
 
