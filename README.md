@@ -34,3 +34,6 @@ docker ps
 docker exec -it openwrt-docker /bin/ash
 ~~~
 Now Starting to Enjoy ur OpenWrt for Docker!!!
+Download openwrt-x86-64-rootfs-squashfs.img openwrt-x86-64-combined-squashfs.vmdk openwrt-x86-64-combined-squashfs.img
+in **[release](https://github.com/jokefrelon/linux-series/releases/download/1.0/OpenWrt.zip)**
+
