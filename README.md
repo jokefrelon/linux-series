@@ -1,5 +1,3 @@
-A little program that can get my linux ip
-
 ## 1.1 OpenWrt 常用插件
 ~~~shell
 #/bin/sh
