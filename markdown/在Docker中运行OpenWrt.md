@@ -170,6 +170,13 @@ docker exec -it OpenWrt /etc/init.d/network restart
 
 如果需要配置 **OpenWrt** 旁路网关，建议参考上文提到的 [美丽应用](https://mlapp.cn/376.html)
 
+### ps:补充一下
+在实际使用中我发现,经常 **opkg update** 失败 但是网络却是没有任何问题,网关也可以  **ping** 通,然后就发现了 **OpenWrt for Docker** 的一个小Bug
+
+每一次重启(有时候退出容器)就会重置 **/etc/resolv.conf** ,而这个文件就是我们的DNS文件!所以我们在使用域名 の时候就会出现失败
+
+我也试过在  **/etc/config/network** 里面设置  **DNS**,也同样会被重置,我不知道这是为什么,只能在每次重启以后写个脚本,设置一下**DNS**
+
 **本文参考资料来源：**
 
 1. Lean · coolsnowwolf/lede - GitHub : https://github.com/coolsnowwolf/lede
