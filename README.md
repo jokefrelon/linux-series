@@ -12,3 +12,6 @@ sudo apt install net-tools
 
 ## 2. [Openwrt](Openwrt.md)
 openwrt相关的脚本，已过时，放弃维护。
+
+## 3. [cputemp.sh](cputemp.sh)
+此脚本适用于Ubuntu系列用一句话命令来查看当前CPU温度
