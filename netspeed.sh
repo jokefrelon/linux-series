@@ -29,5 +29,5 @@ dosp1=`cat /proc/net/dev | grep $phica | awk '{print $2}'`
 
 nupsp=$(printf "%.2f" `echo "scale=2;($upsp1 - $upsp)/1024/1024" | bc`)
 ndosp=$(printf "%.2f" `echo "scale=2;($dosp1 - $dosp)/1024/1024" | bc`)
-echo -e "Upload   speed :\033[49;35m $nupsp Mb/s \033[0m"
-echo -e "Download speed :\033[49;35m $ndosp Mb/s \033[0m"
+echo -e "Upload   speed :\033[49;33m $nupsp Mb/s \033[0m"
+echo -e "Download speed :\033[49;33m $ndosp Mb/s \033[0m"
